@@ -29,7 +29,7 @@ async function listaVideos() {
       )));
     
   } catch {
-    lista.innerHTML = `<h2 class="mensagem__titutlo">Não foi possível carregar a lista de vídeos</h2`
+    lista.innerHTML = `<h2 class="mensagem__titutlo">Não foi possível carregar a lista de vídeos</h2>`
   }
 }
 
